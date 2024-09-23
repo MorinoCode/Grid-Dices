@@ -1,0 +1,265 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 19%,
+    rgba(53, 53, 152, 1) 35%,
+    rgba(0, 212, 255, 1) 82%
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dice {
+  width: 6rem;
+  height: 6rem;
+  background-color: whitesmoke;
+  border: 1px solid black;
+  border-radius: 0.5rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  margin: 1rem;
+}
+
+.dice-1 aside:nth-child(1) {
+  width: 15px;
+  height: 15px;
+  justify-self: center;
+  align-self: center;
+  grid-column: 2/3;
+  grid-row: 2/3;
+  background-color: black;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+.dice-2 aside:nth-child(1) {
+  width: 15px;
+  height: 15px;
+  justify-self: center;
+  align-self: center;
+  grid-column: 1/1;
+  grid-row: 1/1;
+  background-color: black;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+.dice-2 aside:nth-child(2) {
+  width: 15px;
+  height: 15px;
+  justify-self: center;
+  align-self: center;
+  grid-column: 3/3;
+  grid-row: 3/3;
+  background-color: black;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+.dice-3 aside:nth-child(1) {
+  width: 15px;
+  height: 15px;
+  justify-self: center;
+  align-self: center;
+  grid-column: 1/1;
+  grid-row: 1/1;
+  background-color: black;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+.dice-3 aside:nth-child(2) {
+  width: 15px;
+  height: 15px;
+  justify-self: center;
+  align-self: center;
+  grid-column: 2/2;
+  grid-row: 2/2;
+  background-color: black;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+.dice-3 aside:nth-child(3) {
+  width: 15px;
+  height: 15px;
+  justify-self: center;
+  align-self: center;
+  grid-column: 3/3;
+  grid-row: 3/3;
+  background-color: black;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+.dice-4 aside:nth-child(1) {
+  width: 15px;
+  height: 15px;
+  justify-self: center;
+  align-self: center;
+  grid-column: 1/1;
+  grid-row: 1/1;
+  background-color: black;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+.dice-4 aside:nth-child(2) {
+  width: 15px;
+  height: 15px;
+  justify-self: center;
+  align-self: center;
+  grid-column: 3/3;
+  grid-row: 1/1;
+  background-color: black;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+.dice-4 aside:nth-child(3) {
+  width: 15px;
+  height: 15px;
+  justify-self: center;
+  align-self: center;
+  grid-column: 1/1;
+  grid-row: 3/3;
+  background-color: black;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+.dice-4 aside:nth-child(4) {
+  width: 15px;
+  height: 15px;
+  justify-self: center;
+  align-self: center;
+  grid-column: 3/3;
+  grid-row: 3/3;
+  background-color: black;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+/* 5 */
+.dice-5 aside:nth-child(1) {
+  width: 15px;
+  height: 15px;
+  justify-self: center;
+  align-self: center;
+  grid-column: 1/1;
+  grid-row: 1/1;
+  background-color: black;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+.dice-5 aside:nth-child(2) {
+  width: 15px;
+  height: 15px;
+  justify-self: center;
+  align-self: center;
+  grid-column: 3/3;
+  grid-row: 1/1;
+  background-color: black;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+.dice-5 aside:nth-child(3) {
+  width: 15px;
+  height: 15px;
+  justify-self: center;
+  align-self: center;
+  grid-column: 1/1;
+  grid-row: 3/3;
+  background-color: black;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+.dice-5 aside:nth-child(4) {
+  width: 15px;
+  height: 15px;
+  justify-self: center;
+  align-self: center;
+  grid-column: 3/3;
+  grid-row: 3/3;
+  background-color: black;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+.dice-5 aside:nth-child(5) {
+  width: 15px;
+  height: 15px;
+  justify-self: center;
+  align-self: center;
+  grid-column: 2/2;
+  grid-row: 2/2;
+  background-color: black;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+/* 6 */
+.dice-6 aside:nth-child(1) {
+  width: 15px;
+  height: 15px;
+  justify-self: center;
+  align-self: center;
+  grid-column: 1/1;
+  grid-row: 1/1;
+  background-color: black;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+.dice-6 aside:nth-child(2) {
+  width: 15px;
+  height: 15px;
+  justify-self: center;
+  align-self: center;
+  grid-column: 1/1;
+  grid-row: 2/2;
+  background-color: black;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+.dice-6 aside:nth-child(3) {
+  width: 15px;
+  height: 15px;
+  justify-self: center;
+  align-self: center;
+  grid-column: 1/1;
+  grid-row: 3/3;
+  background-color: black;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+.dice-6 aside:nth-child(4) {
+  width: 15px;
+  height: 15px;
+  justify-self: center;
+  align-self: center;
+  grid-column: 3/3;
+  grid-row: 1/1;
+  background-color: black;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+.dice-6 aside:nth-child(5) {
+  width: 15px;
+  height: 15px;
+  justify-self: center;
+  align-self: center;
+  grid-column: 3/3;
+  grid-row: 2/2;
+  background-color: black;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+.dice-6 aside:nth-child(6) {
+  width: 15px;
+  height: 15px;
+  justify-self: center;
+  align-self: center;
+  grid-column: 3/3;
+  grid-row: 3/3;
+  background-color: black;
+  border: 1px solid black;
+  border-radius: 50%;
+}
